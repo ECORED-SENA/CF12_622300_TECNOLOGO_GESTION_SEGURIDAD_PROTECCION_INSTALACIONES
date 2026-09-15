@@ -2,11 +2,17 @@
   .curso-main-container.pb-3
     BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+      .row.mb-5
+        .col-12.ps-3(style="border-left: 10px solid #39A900;") 
+          h3.mb-1 Tecnólogo en Gestión de Seguridad y Protección de las Instalaciones
+          p.mb-0 
+            | Síntesis:
+            | operaciones técnicas y respuesta a emergencias
+      p.mt-5 A continuación, se presenta una síntesis de la temática estudiada en el componente formativo.
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+            img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre la redacción de informes y la planeación de matrices de riesgo en seguridad que organiza los contenidos en siete áreas temáticas: área técnica, comunicación, infraestructura, riesgos, incidentes, matriz de riesgos y mitigación. Cada categoría agrupa conceptos relacionados con competencias técnicas, elaboración de informes, análisis de infraestructura, identificación de riesgos, gestión de incidentes, evaluación y priorización del riesgo, e implementación de medidas de control, planes de mitigación, rutas de atención y seguimiento para la mejora continua. ")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
