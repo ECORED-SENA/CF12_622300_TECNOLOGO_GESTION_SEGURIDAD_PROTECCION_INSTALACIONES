@@ -422,8 +422,8 @@
       .row.justify-content-center.align-items-stretch.mb-2(data-aos="fade-right")
         .col-lg-5.d-flex
           figure.mb-0.w-100
-            img(src='@/assets/curso/temas/t1/img12.png', alt='')
-        .col-lg-7.bg-color-4.d-flex.flex-column.justify-content-center.p-4
+            img(src='@/assets/curso/temas/t1/img12.png', alt='').m-auto
+        .col-lg-7.bg-color-4.d-flex.flex-column.justify-content-center.p-2
           p.mb-2 El registro en la minuta debe cumplir criterios que permitan reconstruir los acontecimientos y garantizar la utilidad operativa del documento. Para ello, se deben considerar los siguientes aspectos:
           ul.lista-ul.color-vinotinto-custom.mb-0
             li.d-flex.mb-2
@@ -553,7 +553,7 @@
         .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t1/img19.png', alt='', style="width: 600px;")
-        .col-12.col-lg-8.order-2.order-lg-1.p-4(data-aos="fade-left")
+        .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-left")
           p.bg-color-3.p-4 Asimismo, estos medios favorecen la continuidad operativa al permitir que el vigilante reporte su estado y confirme las condiciones del puesto y las consignas correspondientes. En situaciones de emergencia, la rapidez con la que se comunican alarmas, accesos no autorizados o anomalías puede incidir directamente en la eficacia de las acciones iniciales de respuesta.
           p.mb-0 Antes de iniciar el turno, el vigilante debe comprobar el estado funcional de los equipos de comunicación. Esta revisión preventiva permite reducir la posibilidad de fallas durante la operación y garantizar la disponibilidad de los medios necesarios para transmitir información crítica.
       .row.justify-content-center.align-items-stretch.mb-2.g-0(data-aos="fade-right")
@@ -627,7 +627,7 @@
       //- Título nivel 3 - Imagen
       .row.justify-content-center.align-items-stretch.mb-4
         .col-12.col-md-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-          .bg-color-3.p-4.h-100.d-flex.align-items-center
+          .bg-color-3.p-3.h-100.d-flex.align-items-center
             p.mb-0 Los medios de comunicación forman parte de un sistema integrado que puede incluir<b> radios, citófonos, líneas directas, aplicaciones de reporte y <i>software</i> de gestión de incidentes.</b> La <b>central de monitoreo</b> utiliza estos canales para confirmar señales, coordinar respuestas, activar protocolos y remitir información a entidades externas cuando corresponda.
         .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
           .h-100.d-flex.align-items-center

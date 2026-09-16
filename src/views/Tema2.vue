@@ -11,7 +11,7 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t2/img1.png', alt='', style="width: 800px;")
         .col-12.col-lg-6.order-2.order-lg-1(data-aos="fade-left")
-          p.mb-0.bg-color-2.p-3 La <b>gestión de riesgos en seguridad</b> es un proceso integral, continuo y sistemático orientado a anticipar, evaluar y controlar las amenazas que pueden afectar a las personas, los bienes, la infraestructura y la continuidad de las operaciones. Su aplicación adquiere especial relevancia en entornos dinámicos expuestos a amenazas físicas, tecnológicas, naturales y sociales.
+          p.mb-0.bg-color-2.p-3.rounded-4 La <b>gestión de riesgos en seguridad</b> es un proceso integral, continuo y sistemático orientado a anticipar, evaluar y controlar las amenazas que pueden afectar a las personas, los bienes, la infraestructura y la continuidad de las operaciones. Su aplicación adquiere especial relevancia en entornos dinámicos expuestos a amenazas físicas, tecnológicas, naturales y sociales.
           p.mb-0 En consecuencia, la gestión del riesgo debe integrarse tanto en la planificación estratégica como en la operación diaria y la preparación para emergencias. Esto permite anticipar escenarios adversos, establecer prioridades y adoptar medidas orientadas a reducir sus posibles consecuencias. 
       Separador
       //- Inicio Tema2.1
@@ -75,6 +75,7 @@
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Mapa de riesgos y peligros
       //- Título nivel 3 - Imagen
       p(data-aos="fade-left") El <b>mapa de riesgos y peligros</b> en el sitio y entorno de trabajo constituye una herramienta del <b>Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST)</b> que permite identificar, valorar y representar los factores de riesgo presentes en los diferentes espacios de la organización. El <b>Decreto 1072 de 2015</b> establece la identificación sistemática de peligros y la evaluación de riesgos como parte del SG-SST, con el propósito de orientar la planificación preventiva y la adopción de controles acordes con las condiciones del trabajo.
+      p(data-aos="fade-left") El desarrollo del mapa comprende diferentes momentos que permiten pasar de la identificación de los peligros a su representación y actualización:
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
@@ -254,7 +255,7 @@
       p(data-aos="fade-left") Los <b>métodos de asociación de impactos</b> permiten relacionar las amenazas identificadas con los efectos potenciales que pueden generar sobre las personas, los activos y la continuidad operativa. Desde el enfoque del análisis del riesgo, toda evaluación debe responder a tres interrogantes esenciales: <b>qué puede ocurrir, con qué probabilidad y cuáles serían las consecuencias.</b>
       .row.justify-content-center.align-items-stretch.mb-4
         .col-12.col-md-12.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-          .bg-color-2.p-4.h-100.d-flex.align-items-center.rounded-4
+          .bg-color-2.p-3.h-100.d-flex.align-items-center.rounded-4
             p.mb-0 La asociación de impactos se concentra especialmente en las consecuencias y permite vincular amenazas y vulnerabilidades con posibles afectaciones materiales, funcionales, económicas o reputacionales. De esta manera, contribuye a construir una comprensión integral del daño potencial y a orientar la toma de decisiones.
         .col-12.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
           .h-100.d-flex.align-items-center
@@ -306,8 +307,8 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t2/img10.png', alt='', style="width: 800px;")
         .col-12.col-lg-7.order-2.order-lg-2(data-aos="fade-left")
-          p.mb-3.bg-color-2.p-4.rounded-4 La delimitación de impactos constituye una fase del análisis de riesgos mediante la cual se establecen los límites, la naturaleza y el alcance de las consecuencias que un evento puede generar sobre los activos organizacionales. Este proceso exige definir qué se considera daño y cuáles serán los criterios utilizados para evaluarlo, evitando interpretaciones ambiguas y fortaleciendo la coherencia metodológica del análisis.
-          p.mb-0 La delimitación se relaciona directamente con la identificación de activos críticos, entendidos como aquellos cuya afectación puede comprometer funciones esenciales, la seguridad del personal o la estabilidad administrativa. Para ello, se establecen criterios que permitan determinar si las consecuencias afectan la integridad humana, la operación, la infraestructura, la información o la reputación institucional. Los principales criterios para delimitar los impactos son:
+          p.mb-3.bg-color-2.p-4.rounded-4 La <b>delimitación de impactos</b> constituye una fase del análisis de riesgos mediante la cual se establecen los límites, la naturaleza y el alcance de las consecuencias que un evento puede generar sobre los activos organizacionales. Este proceso exige definir qué se considera daño y cuáles serán los criterios utilizados para evaluarlo, evitando interpretaciones ambiguas y fortaleciendo la coherencia metodológica del análisis.
+          p.mb-0 La delimitación se relaciona directamente con la identificación de <b>activos críticos</b>, entendidos como aquellos cuya afectación puede comprometer funciones esenciales, la seguridad del personal o la estabilidad administrativa. Para ello, se establecen criterios que permitan determinar si las consecuencias afectan la integridad humana, la operación, la infraestructura, la información o la reputación institucional. Los principales criterios para delimitar los impactos son:
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
@@ -353,7 +354,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Probabilidad de ocurrencia
       //- Título nivel 3 - Imagen
-      p(data-aos="fade-left") La probabilidad de ocurrencia constituye uno de los elementos estructurales del análisis de riesgos y permite estimar la posibilidad de que un evento adverso se presente en un entorno determinado. Esta estimación se integra con el impacto y el perfil del evento para establecer el nivel de riesgo.
+      p(data-aos="fade-left") La <b>probabilidad de ocurrencia</b> constituye uno de los elementos estructurales del análisis de riesgos y permite estimar la posibilidad de que un evento adverso se presente en un entorno determinado. Esta estimación se integra con el impacto y el perfil del evento para establecer el nivel de riesgo.
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-3
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img12.png')})` }")

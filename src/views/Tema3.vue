@@ -172,7 +172,7 @@
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img9.png', alt='', style="object-fit: cover;")
         .col-lg-7.bg-color-5.d-flex.flex-column.justify-content-center.p-4
-          p.mb-3 La aplicación de estos criterios permite que cada anotación aporte información precisa, verificable y útil para la continuidad del servicio. La minuta debe incluir los hechos operativos relevantes ocurridos durante el turno. Entre ellos se encuentran:
+          p.mb-3 Las crisis pueden producir consecuencias directas e indirectas, inmediatas o prolongadas. Entre sus principales efectos se encuentran:
           ul.lista-ul.color-vinotinto-custom.mb-0
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3
@@ -206,7 +206,7 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img10.png', alt='', style="width: 800px;")
         .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-left")
-          p.mb-0.bg-color-2.p-3 La gestión de crisis comprende la capacidad institucional para anticipar, responder y recuperarse de acontecimientos que alteran la estabilidad operativa y pueden superar los mecanismos rutinarios de control. No se limita a una actuación reactiva, sino que articula previamente protocolos, responsabilidades y recursos para disminuir la incertidumbre y reducir las consecuencias humanas, materiales, operativas y reputacionales. Sus principales objetivos son:
+          p.mb-0.bg-color-2.p-3 La <b>gestión de crisis</b> comprende la capacidad institucional para anticipar, responder y recuperarse de acontecimientos que alteran la estabilidad operativa y pueden superar los mecanismos rutinarios de control. No se limita a una actuación reactiva, sino que articula previamente protocolos, responsabilidades y recursos para disminuir la incertidumbre y reducir las consecuencias humanas, materiales, operativas y reputacionales. Sus principales objetivos son:
           p.mb-0 Estos objetivos orientan la toma de decisiones durante las diferentes fases de gestión de una crisis. La gestión de una crisis se desarrolla mediante una secuencia que permite atender el evento desde su identificación hasta la recuperación:
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
@@ -677,7 +677,7 @@
           p.mb-0 Como complemento del registro, los <b>indicadores operativos (KPI)</b> permiten evaluar el desempeño de la central de monitoreo e identificar aspectos que requieren fortalecimiento. Su análisis periódico facilita la adopción de medidas correctivas y el ajuste de protocolos y procesos de capacitación.
         .col-12.col-sm-9.col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
-            img.mx-auto(src='@/assets/curso/temas/t3/img28.png', alt='', style="width: 800px;")
+            img.mx-auto(src='@/assets/curso/temas/t3/img28.png', alt='', style="width: 900px;")
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img29.png')})` }")
@@ -800,7 +800,7 @@
       .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
         .col-lg-7.bg-color-6.d-flex.flex-column.justify-content-center.p-4
           p.mb-3.fw-bold Ejemplo: 
-          p Ante una llamada que informa sobre un posible paquete explosivo en la recepción, el operador debe registrar la información suministrada, las características relevantes de la comunicación y los datos contextuales disponibles. La actuación posterior debe continuar mediante la cadena de notificación y los protocolos institucionales correspondientes.          
+          p ante una llamada que informa sobre un posible paquete explosivo en la recepción, el operador debe registrar la información suministrada, las características relevantes de la comunicación y los datos contextuales disponibles. La actuación posterior debe continuar mediante la cadena de notificación y los protocolos institucionales correspondientes.          
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img32.png', alt='', style="object-fit: cover;")
@@ -1018,7 +1018,7 @@
       //- Título nivel 3 - Imagen
       .row.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-9.order-2.order-lg-1
-          .row.g-0.align-items-stretch.bg-color-6.mb-4
+          .row.align-items-stretch.bg-color-6.mb-4
             .col-12.col-md-5.px-0
               img(src="@/assets/curso/temas/t3/img45.png", style="width:100%; height:100%; object-fit:cover;")
             .col-12.col-md-7.p-4.d-flex.align-items-center
@@ -1582,10 +1582,9 @@
               h4.mb-2 Protocolos de emergencia, gestión de señales de alarma y plan de emergencia
               p.mb-0 Se invita a leer el documento “Protocolos de emergencia, gestión de señales de alarma y plan de emergencia”, donde se aborda la actuación institucional frente a incidentes y emergencias, incluyendo los procedimientos de atención y reporte, la identificación y clasificación de señales de alarma, los simulacros, las acciones preventivas y la estructura del plan de emergencia.
             .mt-3.mt-lg-0.ps-lg-4            
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_01_Protocolos_Plan_Emergencia.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_01_Protocolos_Plan_Emergencia.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
-
 </template>
 
 <script>
