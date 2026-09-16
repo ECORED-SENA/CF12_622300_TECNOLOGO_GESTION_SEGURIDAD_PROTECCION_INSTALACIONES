@@ -12,7 +12,7 @@
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre la redacción de informes y la planeación de matrices de riesgo en seguridad que organiza los contenidos en siete áreas temáticas: área técnica, comunicación, infraestructura, riesgos, incidentes, matriz de riesgos y mitigación. Cada categoría agrupa conceptos relacionados con competencias técnicas, elaboración de informes, análisis de infraestructura, identificación de riesgos, gestión de incidentes, evaluación y priorización del riesgo, e implementación de medidas de control, planes de mitigación, rutas de atención y seguimiento para la mejora continua. ")
+            img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre operaciones técnicas y respuesta a emergencias, organizado en tres componentes: área técnica, gestión de riesgos y manejo de crisis y emergencias, con conceptos asociados a información operativa, amenazas, vulnerabilidades, alertas, eventos críticos, escalamiento, coordinación, respuesta y continuidad operativa.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
