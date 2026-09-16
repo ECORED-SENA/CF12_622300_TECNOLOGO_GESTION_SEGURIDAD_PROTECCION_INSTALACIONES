@@ -674,7 +674,6 @@
                     h4.card-title.text-center.mb-4 Medios abiertos
                     p.mb-2 Comprenden medios como radios no encriptados, Avantel o telefonía convencional, en los cuales existe mayor riesgo de interceptación por terceros. Por esta razón, se emplea lenguaje codificado que protege los detalles operativos sin impedir la comprensión entre el personal autorizado. 
                     p <b>Ejemplo:</b> en lugar de transmitir información detallada sobre una situación sospechosa, puede utilizarse un código previamente establecido por la organización.
-
               .col-sm-12.col-md-6.col-lg-4.mb-4.d-flex.flex-column
                 .tarjeta.p-0.rounded-5.h-100.bg-white.overflow-hidden.border.shadow
                   figure.mb-0
@@ -764,3 +763,4 @@ export default {
 </script>
 
 <style lang="sass"></style>
+

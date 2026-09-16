@@ -20,7 +20,7 @@ export default {
       tema: 'Operaciones técnicas y respuesta a emergencias',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> isdentificar los conceptos clave relacionados con la gestión de la información, los protocolos operativos, la gestión de riesgos y la respuesta ante crisis y emergencias.',
+        '<b>Objetivo:</b> identificar los conceptos clave relacionados con la gestión de la información, los protocolos operativos, la gestión de riesgos y la respuesta ante crisis y emergencias.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

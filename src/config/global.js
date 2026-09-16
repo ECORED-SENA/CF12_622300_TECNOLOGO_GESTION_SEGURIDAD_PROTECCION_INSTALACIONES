@@ -169,14 +169,165 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alarma',
+      significado:
+        'Señal generada por un sistema, dispositivo o persona que advierte sobre una condición anormal, preventiva, técnica o crítica que requiere identificación y atención conforme al protocolo establecido.',
+    },
+    {
+      termino: 'Alerta temprana',
+      significado:
+        'Información o señal que permite anticipar una situación que podría evolucionar hasta convertirse en un incidente crítico y facilita la adopción oportuna de medidas preventivas.',
+    },
+    {
+      termino: 'Amenaza',
+      significado:
+        'Agente, condición, evento o actor con capacidad de generar daño sobre las personas, los bienes, la infraestructura o la continuidad de las operaciones.',
+    },
+    {
+      termino: 'Brigada de emergencias',
+      significado:
+        'Grupo organizado y capacitado para apoyar las acciones de prevención, preparación y respuesta inicial frente a situaciones que puedan comprometer a las personas, los bienes o la operación.',
+    },
+    {
+      termino: 'Central de monitoreo',
+      significado:
+        'Unidad encargada de recibir, procesar, verificar, clasificar, escalar y registrar señales e información relacionadas con la seguridad de los sitios protegidos.',
+    },
+    {
+      termino: 'Crisis',
+      significado:
+        'Evento de alto impacto que supera la capacidad operativa regular de una organización y requiere mecanismos extraordinarios de mando, coordinación y control.',
+    },
+    {
+      termino: 'Escalamiento',
+      significado:
+        'Proceso mediante el cual un evento se comunica progresivamente a los responsables definidos según su naturaleza, prioridad, nivel de riesgo y necesidad de intervención.',
+    },
+    {
+      termino: 'Evento crítico',
+      significado:
+        'Situación capaz de alterar significativamente la operación normal y que requiere una respuesta coordinada para prevenir o reducir daños sobre las personas, la infraestructura o los procesos esenciales.',
+    },
+    {
+      termino: 'Impacto',
+      significado:
+        'Consecuencia directa o indirecta que puede generar un evento sobre las personas, los activos, la infraestructura, la información, la reputación o la continuidad operativa.',
+    },
+    {
+      termino: 'Minuta de vigilancia',
+      significado:
+        'Documento institucional, secuencial y obligatorio en el que se registran cronológicamente las actividades, novedades y hechos relevantes ocurridos durante el servicio.',
+    },
+    {
+      termino: 'Plan de emergencia',
+      significado:
+        'Instrumento que organiza responsabilidades, procedimientos, recursos y mecanismos de coordinación destinados a preparar y orientar la respuesta institucional ante situaciones críticas.',
+    },
+    {
+      termino: 'Probabilidad de ocurrencia',
+      significado:
+        'Estimación de la posibilidad de que un evento adverso se presente en un entorno determinado, considerando antecedentes, condiciones existentes, datos disponibles y criterio profesional.',
+    },
+    {
+      termino: 'Protocolo',
+      significado:
+        'Conjunto estructurado de disposiciones que establece responsabilidades, canales, criterios y procedimientos para desarrollar una actuación de manera organizada y uniforme.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'Condición resultante de la interacción entre una amenaza y una vulnerabilidad, considerando la probabilidad de ocurrencia y las posibles consecuencias del evento.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Capacidad de reconstruir cronológicamente un evento mediante registros que permitan identificar comunicaciones, decisiones, responsables y acciones ejecutadas.',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'Debilidad física, tecnológica, humana o procedimental que puede facilitar la materialización de una amenaza y aumentar el nivel de riesgo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'ASIS. (2005). Estándares y lineamientos para la gestión del riesgo en seguridad.',
       link: '',
+    },
+    {
+      referencia:
+        'ASIS. (2011a). Manual de gestión de crisis: Lineamientos para la preparación, respuesta y continuidad operativa ante emergencias y crisis.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS. (2011b). Manual de operadores de seguridad: Directrices operativas para centrales de monitoreo, verificación y respuesta.',
+      link: '',
+    },
+    {
+      referencia: 'ASIS. (2012). Manual de gestión en seguridad ASIS.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS International. (2011a). Manual POA investigación: Protección de activos: Lineamientos para informes e investigación operativa.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS International. (2011b). Manual seguridad de la información: Procedimientos para manejo, clasificación y protección de datos en operaciones de seguridad.',
+      link: '',
+    },
+    {
+      referencia:
+        'Aven, T. (2009). Risk analysis and management: Basic concepts and principles. Reliability: Theory & Applications.',
+      link: 'https://www.gnedenko.net/Journal/2009/012009/RATA_1_2009-08.pdf',
+    },
+    {
+      referencia:
+        'Bermúdez. (2012). Manual de procedimiento para el personal de vigilantes de seguridad privada.',
+      link: '',
+    },
+    {
+      referencia:
+        'Corporación Autónoma Regional del Valle del Cauca. (s. f.). Manual de funcionamiento operativo de la brigada de emergencia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cox, L. A., Jr. (2008). What’s wrong with risk matrices? Risk Analysis, 28(2), 497–512.',
+      link: 'https://doi.org/10.1111/j.1539-6924.2008.01030.x',
+    },
+    {
+      referencia:
+        'Delgado J & Asociados (DEAS). (s. f.). Manual de la central de monitoreo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kaplan, S., & Garrick, B. J. (1981). On the quantitative definition of risk. Risk Analysis, 1(1), 11–27.',
+      link: 'https://www.nrc.gov/docs/ML1216/ML12167A133.pdf',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (2015). Decreto 1072 de 2015: Decreto Único Reglamentario del Sector Trabajo.',
+      link: 'https://www.mintrabajo.gov.co/documents/20147/0/DUR+1072+Sector+Trabajo+Actualizado+a+Diciembre+20+de+2021.pdf',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (2019). Resolución 0312 de 2019: Estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST). Gobierno de Colombia.',
+      link: 'https://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf',
+    },
+    {
+      referencia:
+        'Organización Internacional del Trabajo. (2014). Una guía de 5 pasos para empleadores, trabajadores y sus representantes sobre la realización de evaluaciones de riesgos en el lugar de trabajo.',
+      link: 'https://www.ilo.org/es/media/443301/download',
+    },
+    {
+      referencia:
+        'Universidad CES. (2025). Guía del sistema de gestión integral del riesgo: Metodología y proceso de administración de riesgos.',
+      link: 'https://www.ces.edu.co/content/uploads/2025/08/GU-DE-002-Guia-metodologica-para-el-sistema-de-gestion-integral-del-riesgo-V02.pdf',
     },
   ],
   creditos: [
