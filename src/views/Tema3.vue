@@ -64,7 +64,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img5.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 El análisis y la atención de eventos se integran en el enfoque metodológico denominado all hazards approach o «Todos los peligros», que reúne principios comunes aplicables a diferentes tipos de emergencias. Este enfoque contempla:
+          p.mb-0 El análisis y la atención de eventos se integran en el enfoque metodológico denominado <i>all hazards approach</i> o «Todos los peligros», que reúne principios comunes aplicables a diferentes tipos de emergencias. Este enfoque contempla:
             br
             br
             ul.lista-ul.color-vinotinto-custom.mb-0
@@ -1496,7 +1496,7 @@
           p.mb-0.fw-bold Ejemplo
           br
           br
-          p ante una situación que requiera atención inicial de una persona lesionada, la brigada de primeros auxilios aplica los procedimientos correspondientes dentro del alcance de su capacitación y solicita el apoyo especializado requerido. En una situación relacionada con presencia de humo, los brigadistas aplican las acciones establecidas y coordinan con el responsable del plan la necesidad de evacuación.
+          p Ante una situación que requiera atención inicial de una persona lesionada, la brigada de primeros auxilios aplica los procedimientos correspondientes dentro del alcance de su capacitación y solicita el apoyo especializado requerido. En una situación relacionada con presencia de humo, los brigadistas aplican las acciones establecidas y coordinan con el responsable del plan la necesidad de evacuación.
       p(data-aos="fade-left") De esta manera, las brigadas fortalecen la capacidad de respuesta interna y facilitan la coordinación con los organismos competentes cuando el evento supera los recursos disponibles en la organización.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")

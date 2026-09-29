@@ -35,7 +35,7 @@
                     img(src='@/assets/curso/temas/t2/tarjeta01_1.png')
                 .col-md-6.mb-4.mb-md-0
                   h4 Amenaza
-                  p Corresponde al agente, condición, evento o actor con capacidad de generar daño. Puede ser intencional, como hurto, intrusión, sabotaje, terrorismo o agresión; o no intencional, como incendios, fallas eléctricas o desastres naturales. 
+                  p Corresponde al agente, condición, evento o actor con capacidad de generar daño. Puede ser intencional, como hurto, intrusión, sabotaje, terrorismo o agresión, o no intencional, como incendios, fallas eléctricas o desastres naturales. 
                   p <b>Ejemplo:</b> la presencia recurrente de personas sospechosas alrededor de una instalación constituye una amenaza que requiere atención preventiva.
             .py-3.py-md-4(titulo="Vulnerabilidad")
               .row.align-items-center
@@ -177,7 +177,7 @@
             img.mx-auto(src='@/assets/curso/temas/t2/img6.png', alt='', style="width: 700px;")
         .col-12.col-lg-6.order-2.order-lg-2(data-aos="fade-left")
           p.bg-color-6.p-2 Las <b>alertas tempranas</b> constituyen un componente estratégico de la gestión de la seguridad física y la atención de emergencias, ya que permiten anticipar situaciones que podrían evolucionar hasta convertirse en incidentes críticos. Su propósito es facilitar la adopción de medidas preventivas, la movilización de recursos y la coordinación operativa antes de que el riesgo se materialice o aumente su impacto.
-          p.mb-0 Una alerta temprana puede originarse en mecanismos tecnológicos, humanos, administrativos o externos capaces de detectar cambios, señales o patrones inusuales. Para que resulte útil, debe ser <b>oportuna, verificable y susceptible de generar una actuación definida.</b> Los principales tipos de alertas tempranas son:
+          p.mb-0 Una alerta temprana puede originarse en mecanismos tecnológicos, humanos, administrativos o externos, capaces de detectar cambios, señales o patrones inusuales. Para que resulte útil, debe ser <b>oportuna, verificable y susceptible de generar una actuación definida.</b> Los principales tipos de alertas tempranas son:
       //- Pestanas horizontales
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
           TabsC.color-acento-contenido.mt-1
@@ -287,7 +287,7 @@
                   img(src='@/assets/curso/temas/t2/tarjeta04_3.png')
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Modelos probabilísticos
-                p Permiten estimar las consecuencias considerando la probabilidad asociada con determinados escenarios. Su aplicación contribuye a estructurar el análisis y comparar diferentes situaciones de riesgo mediante criterios previamente establecidos.
+                p Permiten estimar las consecuencias considerando la probabilidad asociada a determinados escenarios. Su aplicación contribuye a estructurar el análisis y comparar diferentes situaciones de riesgo mediante criterios previamente establecidos.
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -296,7 +296,7 @@
                 h4 Métodos multicriterio
                 p Asignan pesos a variables como gravedad, reversibilidad, alcance o costo económico para valorar el daño potencial. Estos métodos disminuyen la dependencia exclusiva del juicio profesional y fortalecen la objetividad del análisis, especialmente cuando las decisiones deben justificarse ante auditorías o entidades reguladoras.
       //- Fin Slideshow
-      p(data-aos="fade-left") La aplicación de estos métodos permite asociar cada amenaza con sus posibles consecuencias y establecer prioridades de intervención según la naturaleza y severidad de los impactos identificados.
+      p(data-aos="fade-left") La aplicación de estos métodos permite asociar cada amenaza con sus posibles consecuencias y establecer prioridades de intervención según la naturaleza y la severidad de los impactos identificados.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')

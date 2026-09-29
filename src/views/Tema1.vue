@@ -619,7 +619,7 @@
             img.mx-auto(src='@/assets/curso/temas/t1/img22.png', alt='', style="width: 600px;")
         .col-12.col-lg-6.order-2.order-lg-2(data-aos="fade-left")
           p.mb-0 La información transmitida mediante radio, teléfono o citófono puede contener datos sensibles. Por ello, deben protegerse los datos relacionados con usuarios, claves, rutas, vulnerabilidades y protocolos específicos, especialmente cuando se utilizan canales abiertos.
-          p.mb-0.bg-color-6.p-4 El manejo inadecuado de estos medios puede ocasionar filtraciones que comprometan la seguridad del servicio. En consecuencia, la comunicación debe realizarse mediante los canales autorizados, utilizando lenguaje prudente y manteniendo la reserva de la información operativa.
+          p.mb-0.bg-color-6.p-4 El manejo inadecuado de estos medios puede ocasionar filtraciones que comprometan la seguridad del servicio. En consecuencia, la comunicación debe realizarse mediante los canales autorizados, utilizando un lenguaje prudente y manteniendo la reserva de la información operativa.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -763,4 +763,3 @@ export default {
 </script>
 
 <style lang="sass"></style>
-
