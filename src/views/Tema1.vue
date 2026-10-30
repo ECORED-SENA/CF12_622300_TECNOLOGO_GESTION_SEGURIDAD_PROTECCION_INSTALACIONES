@@ -223,7 +223,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img7.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 <b>Ejemplo:</b>
+          p.mb-0 <b>Ejemplo</b>
             br
             br
             | Si un oficial detecta humo en una bodega, debe informar inmediatamente al supervisor mediante el canal autorizado y evitar medios informales que puedan retrasar la activación del plan de emergencia.
@@ -285,7 +285,7 @@
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Claridad del mensaje
                 p La información debe ser concreta, objetiva y libre de interpretaciones personales. Se privilegia el lenguaje estandarizado o codificado para reducir ambigüedades.
-                p <b>Ejemplo:</b> en lugar de expresar <i>«creo que alguien está entrando», debe informarse: «Se detecta movimiento en zona 3, cámara 12 confirma figura humana, 02:14 horas».</i>
+                p <b>Ejemplo:</b> en lugar de expresar "creo que alguien está entrando", debe informarse: "Se detecta movimiento en zona 3, cámara 12 confirma figura humana, 02:14 horas".
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -326,7 +326,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img8.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 <b>Ejemplo:</b>
+          p.mb-0 <b>Ejemplo</b>
             br
             br
             | Una consigna puede establecer que el oficial debe verificar el cuarto eléctrico cada dos horas, reportar inmediatamente cualquier olor a quemado y registrar cada ronda con la hora y la firma correspondientes.
@@ -446,10 +446,10 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img13.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 <b>Ejemplo:</b>
+          p.mb-0 <b>Ejemplo</b>
             br
             br
-            | la anotación <i>«puerta del depósito sin seguro»</i> corresponde a un hecho concreto y verificable. En cambio, <i>«parece que intentaron entrar»</i> incorpora una interpretación que no ha sido confirmada y, por tanto, no cumple el criterio de objetividad requerido.
+            | La anotación "puerta del depósito sin seguro" corresponde a un hecho concreto y verificable. En cambio, "parece que intentaron entrar" incorpora una interpretación que no ha sido confirmada y, por tanto, no cumple el criterio de objetividad requerido.
       .row.justify-content-center.align-items-stretch.mb-2.g-0(data-aos="fade-right")
         .col-lg-5.d-flex
           figure.mb-0.w-100
@@ -513,7 +513,7 @@
             h5 Figura 1.
             span Ejemplo de minuta 
           figure.mb-0.text-center
-            img.mx-auto(src='@/assets/curso/temas/t1/img16.png', alt='', style="width: 1300px;")
+            img.mx-auto(src='@/assets/curso/temas/t1/img16.png', alt='Tabla de modelo de minuta de vigilancia con campos de identificación y registros por hora sobre hechos o actividades, personas involucradas, acciones del vigilante, notificaciones y observaciones.', style="width: 1300px;")
       p(data-aos="fade-left") Este modelo organiza cronológicamente la información y reúne en un único registro los datos necesarios para documentar los acontecimientos, las actuaciones realizadas y las comunicaciones efectuadas durante el turno.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
@@ -542,7 +542,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/H8S2rqVtMho?si=VcVecBMhLLRHLqyt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/zA5twgVzeAM?si=lOFgbI5HK6TS3142" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -651,10 +651,10 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img25.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 <b>Ejemplo:</b>
+          p.mb-0 <b>Ejemplo</b>
             br
             br
-            | cuando un vigilante reporta una «verificación en área crítica», el supervisor identifica que la actuación corresponde a un punto previamente establecido como vulnerable, sin necesidad de explicaciones adicionales.
+            | Cuando un vigilante reporta una «verificación en área crítica», el supervisor identifica que la actuación corresponde a un punto previamente establecido como vulnerable, sin necesidad de explicaciones adicionales.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -681,7 +681,7 @@
                   .p-4
                     h4.card-title.text-center.mb-4 Medios cerrados o encriptados
                     p.mb-2 Incluyen sistemas como radios troncalizados, intranet corporativa, líneas privadas y <i>software</i> de control de operaciones. Estos canales permiten transmitir información técnica con mayor nivel de detalle debido a los mecanismos destinados a proteger la integridad de la comunicación. 
-                    p <b>Ejemplo:</b> <i>«Central, puesto este: falla de iluminación en pasillo 5, solicito verificación técnica».</i>
+                    p <b>Ejemplo:</b> "Central, puesto este: falla de iluminación en pasillo 5, solicito verificación técnica".
             //- Fin Tarjetas
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
@@ -702,7 +702,7 @@
             img.h-100.w-100(src='@/assets/curso/temas/t1/img29.png', alt='', style="object-fit: cover;")
         .col-lg-7.bg-color-5.d-flex.flex-column.justify-content-center.p-4
           p.mb-3.fw-bold Ejemplo
-          p <i>«22:13 – Señal de apertura. Usuario no responde. Se informa a supervisión. Se envía móvil para verificación».</i>
+          p "22:13 – Señal de apertura. Usuario no responde. Se informa a supervisión. Se envía móvil para verificación."
       p(data-aos="fade-left") La información consignada debe ser objetiva y estar libre de interpretaciones subjetivas. Debido a que estos registros pueden contener datos sobre usuarios, horarios, vulnerabilidades técnicas, fallas recurrentes y rutas operacionales, su manejo requiere estrictos criterios de <b>confidencialidad.</b>
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
@@ -734,8 +734,8 @@
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t1/img31.png', alt='', style="object-fit: cover;")
         .col-lg-7.bg-color-2.d-flex.flex-column.justify-content-center.p-4
-          p.mb-3.fw-bold Ejemplo:
-          p ante una verificación telefónica sin respuesta, puede registrarse: <i>«Llamado sin contacto. Supervisión informada. Procede verificación móvil».</i>
+          p.mb-3.fw-bold Ejemplo
+          p Ante una verificación telefónica sin respuesta, puede registrarse: "Llamado sin contacto. Supervisión informada. Procede verificación móvil".
       p(data-aos="fade-left") En conjunto, el dominio del glosario, el uso de códigos establecidos, la aplicación del lenguaje técnico y el registro preciso de las actuaciones fortalecen la <b>coordinación, trazabilidad e integridad operacional</b> del servicio.
 
 
@@ -763,4 +763,3 @@ export default {
 </script>
 
 <style lang="sass"></style>
-

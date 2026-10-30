@@ -316,7 +316,7 @@
               .bloque-texto-g__img(
                 :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img13.png')})` }")
               .bloque-texto-g__texto.p-4
-                p.mb-0 <b>Ejemplo:</b>
+                p.mb-0 <b>Ejemplo</b>
                   br
                   br
                   | Ante una señal de apertura irregular recibida durante la madrugada, el operador debe consultar la información correspondiente y aplicar el procedimiento de verificación establecido. Cuando la verificación no sea satisfactoria, procede el escalamiento de acuerdo con el protocolo definido.
@@ -454,7 +454,7 @@
                   h5 Figura 2.
                   span Responsabilidades durante la atención de alarmas
                 figure.mb-0.text-center
-                  img.mx-auto(src='@/assets/curso/temas/t3/img20.png', alt='', style="width: 600px;")
+                  img.mx-auto(src='@/assets/curso/temas/t3/img20.png', alt='Diagrama circular sobre la distribución de responsabilidades durante la atención de alarmas, con cuatro roles principales: operador, supervisor, coordinador y Equipo de Evaluación Técnica (EET), organizados en una estructura coordinada de respuesta.', style="width: 600px;")
             //- Inicio Accordion 1
             .bg--img_03.mt-5
               .row.justify-content-center
@@ -593,7 +593,7 @@
                   h5 Figura 3.
                   span Secuencia general de escalamiento y notificación
                 figure.mb-0.text-center
-                  img.mx-auto(src='@/assets/curso/temas/t3/img25.png', alt='', style="width: 600px;")
+                  img.mx-auto(src='@/assets/curso/temas/t3/img25.png', alt='Diagrama  sobre la secuencia de escalamiento y notificación durante la atención de eventos, integrada por operador, supervisor, coordinador de zona, equipo técnico especializado y autoridad competente.', style="width: 600px;")
             p(data-aos="fade-left") La aplicación de esta secuencia depende de las características y del nivel de riesgo del evento. La matriz debe contemplar responsables principales y alternos, mecanismos de contacto, claves de acceso y criterios para solicitar apoyo externo ante situaciones como intrusión confirmada, incendio o amenaza relacionada con un artefacto. Las responsabilidades asociadas con cada nivel de escalamiento se organizan así:
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
@@ -740,10 +740,10 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img31.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 <b>Ejemplo:</b>
+          p.mb-0 <b>Ejemplo</b>
             br
             br
-            | a las 03:12 horas se recibe una señal de apertura en la zona 02, correspondiente a una posible intrusión. El operador intenta establecer contacto con el guardia, pero no obtiene respuesta. Posteriormente, revisa el CCTV e identifica movimiento, por lo que escala el evento al supervisor, coordina el apoyo correspondiente y notifica al cliente. La intervención posterior queda registrada con sus tiempos, comunicaciones y evidencias asociadas.
+            | A las 03:12 horas se recibe una señal de apertura en la zona 02, correspondiente a una posible intrusión. El operador intenta establecer contacto con el guardia, pero no obtiene respuesta. Posteriormente, revisa el CCTV e identifica movimiento, por lo que escala el evento al supervisor, coordina el apoyo correspondiente y notifica al cliente. La intervención posterior queda registrada con sus tiempos, comunicaciones y evidencias asociadas.
       Separador
       //- Inicio Tema3.3
       .row
@@ -799,8 +799,8 @@
       p(data-aos="fade-left") Estas etapas deben aplicarse de manera articulada para mantener la proporcionalidad y trazabilidad de la respuesta.
       .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
         .col-lg-7.bg-color-6.d-flex.flex-column.justify-content-center.p-4
-          p.mb-3.fw-bold Ejemplo: 
-          p ante una llamada que informa sobre un posible paquete explosivo en la recepción, el operador debe registrar la información suministrada, las características relevantes de la comunicación y los datos contextuales disponibles. La actuación posterior debe continuar mediante la cadena de notificación y los protocolos institucionales correspondientes.          
+          p.mb-3.fw-bold Ejemplo 
+          p Ante una llamada que informa sobre un posible paquete explosivo en la recepción, el operador debe registrar la información suministrada, las características relevantes de la comunicación y los datos contextuales disponibles. La actuación posterior debe continuar mediante la cadena de notificación y los protocolos institucionales correspondientes. 
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img32.png', alt='', style="object-fit: cover;")
@@ -948,8 +948,8 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img41.png', alt='', style="width: 420px;")
         .col-12.col-lg-7.order-2.order-lg-1.bg-color-2.p-4.rounded-4(data-aos="fade-left")
-          p.mb-3 <b>Ejemplo:</b>
-          p.mb-0 ante una llamada relacionada con un posible objeto sospechoso en un parqueadero, el operador recopila los datos proporcionados por el interlocutor y registra las características descritas, sin orientar a la persona a acercarse o manipular el elemento.
+          p.mb-3 <b>Ejemplo</b>
+          p.mb-0 Ante una llamada relacionada con un posible objeto sospechoso en un parqueadero, el operador recopila los datos proporcionados por el interlocutor y registra las características descritas, sin orientar a la persona a acercarse o manipular el elemento.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -1009,8 +1009,8 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img44.png', alt='', style="width: 460px;")
         .col-12.col-lg-7.order-2.order-lg-2.bg-color-3.p-4.rounded-4(data-aos="fade-left")
-          p.mb-3 <b>Ejemplo:</b>
-          p.mb-0 un usuario comunica que escuchó la ruptura de un vidrio. El operador recopila la información disponible, confirma las condiciones de seguridad del interlocutor, clasifica el evento conforme al protocolo y activa los recursos definidos para su atención.
+          p.mb-3 <b>Ejemplo</b>
+          p.mb-0 Un usuario comunica que escuchó la ruptura de un vidrio. El operador recopila la información disponible, confirma las condiciones de seguridad del interlocutor, clasifica el evento conforme al protocolo y activa los recursos definidos para su atención.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -1079,8 +1079,8 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img49.png', alt='', style="width: 460px;")
         .col-12.col-lg-7.order-2.order-lg-1.bg-color-6.p-4.rounded-4(data-aos="fade-left")
-          p.mb-3 <b>Ejemplo:</b>
-          p.mb-0 durante una ronda, un colaborador identifica una mochila abandonada en un área que normalmente permanece despejada. El personal evita acercarse o manipularla, restringe el acceso y comunica la situación para activar el procedimiento correspondiente.
+          p.mb-3 <b>Ejemplo</b>
+          p.mb-0 Durante una ronda, un colaborador identifica una mochila abandonada en un área que normalmente permanece despejada. El personal evita acercarse o manipularla, restringe el acceso y comunica la situación para activar el procedimiento correspondiente.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -1148,8 +1148,8 @@
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img55.png', alt='', style="object-fit: cover;")
         .col-lg-7.bg-color-5.d-flex.flex-column.justify-content-center.p-4
-          p.mb-3.fw-bold Ejemplo:
-          p un vigilante identifica un contenedor derramado que genera vapores y produce irritación en las personas cercanas. Sin aproximarse al elemento, restringe el acceso y comunica la situación para activar la respuesta especializada.
+          p.mb-3.fw-bold Ejemplo
+          p Un vigilante identifica un contenedor derramado que genera vapores y produce irritación en las personas cercanas. Sin aproximarse al elemento, restringe el acceso y comunica la situación para activar la respuesta especializada.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -1184,8 +1184,8 @@
       p(data-aos="fade-left") Ante estas condiciones, debe restringirse el acceso, aplicar las rutas de evacuación establecidas y solicitar la evaluación de personal especializado.
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-lg-7.order-2.order-lg-2.bg-color-6.p-4.rounded-4(data-aos="fade-left")
-          p.mb-3 <b>Ejemplo:</b>
-          p.mb-0 en un edificio administrativo se reportan ruidos inusuales y un hundimiento progresivo del piso. El responsable activa el procedimiento correspondiente, restringe el ingreso al área y solicita una evaluación técnica especializada.
+          p.mb-3 <b>Ejemplo</b>
+          p.mb-0 En un edificio administrativo se reportan ruidos inusuales y un hundimiento progresivo del piso. El responsable activa el procedimiento correspondiente, restringe el ingreso al área y solicita una evaluación técnica especializada.
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img57.png', alt='', style="width: 460px;")
@@ -1336,8 +1336,8 @@
               span Revisión de los recursos disponibles para emergencias.               
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-lg-8.order-2.order-lg-2.bg-color-6.p-4.rounded-4(data-aos="fade-left")
-          p.mb-3 <b>Ejemplo:</b>
-          p.mb-0 la revisión periódica de los equipos contra incendios permite identificar deterioros o fallas antes de que estos sean requeridos durante una emergencia.
+          p.mb-3 <b>Ejemplo</b>
+          p.mb-0 La revisión periódica de los equipos contra incendios permite identificar deterioros o fallas antes de que estos sean requeridos durante una emergencia.
         .col-12.col-sm-9.col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img61.png', alt='', style="width: 460px;")
@@ -1382,8 +1382,8 @@
       p(data-aos="fade-left") Estas directrices no se limitan a declaraciones generales, sino que deben traducirse en compromisos operativos que puedan ser aplicados y evaluados.
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-lg-8.order-2.order-lg-2.bg-color-3.p-4.rounded-4(data-aos="fade-left")
-          p.mb-3 <b>Ejemplo:</b>
-          p.mb-0 la designación formal de un líder de emergencias con funciones y autoridad definidas facilita la coordinación de una evacuación y la adopción de decisiones durante un incidente.
+          p.mb-3 <b>Ejemplo</b>
+          p.mb-0 La designación formal de un líder de emergencias con funciones y autoridad definidas facilita la coordinación de una evacuación y la adopción de decisiones durante un incidente.
         .col-12.col-sm-9.col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img63.png', alt='', style="width: 460px;")
@@ -1443,8 +1443,8 @@
       p(data-aos="fade-left") La delimitación de competencias evita intervenciones inadecuadas y permite que cada entidad actúe conforme a sus responsabilidades.
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-lg-8.order-2.order-lg-2.bg-color-6.p-4.rounded-4(data-aos="fade-left")
-          p.mb-3 <b>Ejemplo:</b>
-          p.mb-0 ante un objeto sospechoso en una zona perimetral, el personal de seguridad debe restringir el acceso, aplicar el protocolo institucional y facilitar la intervención de la unidad especializada, sin manipular el elemento.
+          p.mb-3 <b>Ejemplo</b>
+          p.mb-0 Ante un objeto sospechoso en una zona perimetral, el personal de seguridad debe restringir el acceso, aplicar el protocolo institucional y facilitar la intervención de la unidad especializada, sin manipular el elemento.
         .col-12.col-sm-9.col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t3/img64.png', alt='', style="width: 460px;")
